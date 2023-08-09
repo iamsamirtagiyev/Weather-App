@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="weather-icon.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <h1 class="title">Hava Haqqında</h1>
+            <div class="add-city">
+                <input type="text" placeholder="Axtar">
+                <div class="line">
+                    <span></span>
+                    <span>Və Ya</span>
+                    <span></span>
+                </div>
+                <button class="location">Hazırki Yeriniz</button>
+            </div>
+            <div class="weather-info close">
+                <div class="weather-icon">
+                    <span class="material-icons sun">light_mode</span>
+                    <span class="material-icons cloud">cloud</span>
+                </div>
+                <div class="info">
+                    <div class="city-name"></div>
+                    <div class="temp"></div>
+                    <div class="description"></div>
+                    <div class="min-max"></div>
+                </div>
+            </div>
+            <div class="error">
+                <span class="material-icons">
+                    warning
+                </span>
+                <span>Şəhər adını düzgün qeyd edin</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
